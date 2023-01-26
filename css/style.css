@@ -1,0 +1,105 @@
+/*start of global rules*/
+:root {
+    --main-color: hsl(158, 36%, 37%);
+    --secondary-color: hsl(30, 38%, 92%);
+    --section-background:  hsl(0, 0%, 100%);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    scroll-behavior: smooth;
+  }
+
+.container {
+    width:100%;
+    height:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--secondary-color);
+  }
+
+/*end of global rules*/
+
+ .grid{
+    margin: auto auto;
+    padding: 50px 0;
+    border-radius:7px !important;    /*??????????*/
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-border-radius:7px !important;
+    -moz-border-radius:7px !important;
+    -ms-border-radius:7px !important;
+    -o-border-radius:7px !important;
+}
+.container .grid .image , .container .grid .content{
+    width:350px;
+}
+
+.container .grid .image img{
+    width:100%;
+    height:auto;
+}
+.content{
+    background-color:var(--section-background) ;
+    margin:0%;
+    padding-left:23px ;
+    
+}
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+} 
+.container .grid .content h5{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    font-weight:500 ;
+    letter-spacing: 5px;
+
+}
+.container .grid .content p{
+padding-bottom: 20px;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container .grid .price{
+    display:flex;
+    padding-bottom: 20px;
+   
+}
+.container .grid .price h2{
+    color:var(--main-color);
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+}
+.container .grid .price p{
+    padding-top: 12px;
+    padding-left: 23px;
+}
+
+.container .grid .content .button a{
+   
+    color:var(--section-background);
+    text-decoration: none;
+    display:block;
+    padding-top: 12px;
+   
+   
+}
+.container .grid .content .button{
+    background-color: var(--main-color);
+    width:300px;
+    height:40px;
+    margin:auto;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
